@@ -3,7 +3,7 @@ const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
 function countDate(){
-    const beginDate = new Date(2022, 1, 18, 23, 14, 0, 0);
+    const beginDate = new Date(2022, 1, 18, 23, 41, 0, 0);
     const currentDate = new Date();
 
     const totalSeconds = (currentDate - beginDate)/1000;
